@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Schronisko2.jnlp">
+  <information>
+    <title>Schronisko2</title>
+    <vendor>Macius-laptop</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Schronisko2.jar" size="23020" download="eager" />
+    <jar href="lib\ojdbc7.jar" size="3698857" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="schronisko2.Schronisko2"  name="Schronisko2" />
+  <update check="always"/>
+</jnlp>
